@@ -1,0 +1,1 @@
+# halium_device_samsung_gtexswifi
