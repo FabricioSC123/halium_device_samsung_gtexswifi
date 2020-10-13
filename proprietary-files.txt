@@ -35,7 +35,6 @@ lib/libbt-codec_sshd.so
 #   lib/libicuu1.so
 #   lib/libicuoc.so
 lib/libbt-iopdb_mod.so
-#app/Bluetooth/Bluetooth.apk|02b2193ddd9b4e6501c3cb64732ad9df81ac2b90
 #app/Bluetooth/lib/arm/libbluetooth_jni.so|e5dc4e998c447e303cd6d29ed40721a3ff698cc0
 #lib/hw/bluetooth.default.so|25e8468a9a5eed1f44709629ad9a00c076a48a3b
 #hardware/sprd/partner/shark/bluetooth/pskey_bt.txt:system/lib/modules/pskey_bt.txt

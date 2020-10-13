@@ -147,7 +147,7 @@ on post-fs-data
     # symlink telphony data files
     symlink /data/user_de/0/com.android.providers.telephony/databases /data/data/com.android.providers.telephony/databases
     symlink /data/user_de/0/com.android.providers.telephony/shared_prefs /data/data/com.android.providers.telephony/shared_prefs
-
+    
     # MUIC
     chown system radio /sys/class/sec/switch/uart_en
 
@@ -167,11 +167,12 @@ on post-fs-data
         restorecon_recursive /data/misc/keystore
         restorecon_recursive /data/property
         restorecon_recursive /data/security
-    # ]
 
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
+
+    mount -o remount,rw /root
 
     # Support audio loopback test
     mkdir /dev/pipe 0755 system system
